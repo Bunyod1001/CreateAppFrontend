@@ -1,0 +1,60 @@
+
+  :root {
+    background: black;
+  }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background: black;
+  }
+}
+
+/* body {
+  background: black;
+} */
+
+
+/* 
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+} */
+
+
+
+
+html,
+body
+{
+  padding:0;
+  margin:0; 
+  font-family:Droid Sans, Roboto ,sans-serif;
+  background: black;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body{
+    color: white;
+    background: black ;
+  }
+}
+
+* div{
+   background: black;
+   color: white;
+}
